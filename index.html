@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Receitas da Eli</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header_container">
+          <!-- LOGO -->
+          <a href="index.html" class="logo">
+              <img src="imagens/Logo _blog_receitas.png" alt="Logo Blog Meu Pão de Queijo">
+          </a>
+
+          <!-- BOTÃO MENU MOBILE -->
+          <button class="menu_mobile" id="menu_mobile" aria-label="Abrir menu">
+              <span></span>
+              <span></span>
+              <span></span>
+          </button>
+
+          <!-- MENU -->
+          <nav class="menu" id="menu">
+              <a href="index.html" class="menu_link active">
+                  Início
+              </a>
+              <a href="receitas.html" class="menu_link">
+                  Receitas
+              </a>
+              <a href="contato.html" class="menu_link">
+                  Contato
+              </a>
+          </nav>
+      </div>
+    </header>
+
+    <!-- BANNER CARROSSEL -->
+     <section class="banner_carrossel">
+        <div class="slider">
+            <!-- SLIDE 1 -->
+            <div class="slide_active">
+                <img src="imagens/Banner _slide1.jpg" alt="Receitas deliciosas">
+
+                <div class="slide_content"> <!--Texto dentro do banner slide-->
+                    <span>Blog de Receitas da Eli</span>
+                    <h1>Receitas para todos os momentos</h1>
+                    <p>Descubra receitas deliciosas e fáceis de preparar.</p>
+
+                    <a href="#receitas" class="slide_button">
+                        Ver receitas
+                    </a>
+                </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide">
+                <img src="imagens/Banner _slide2.jpg" alt="Receitas caseiras">
+
+                <div class="slide_content">
+                    <span>Receitas caseiras</span>
+                    <h1>Sabor de comida feita em casa</h1>
+                    <p>Receitas simples para deixar seus momentos ainda mais especiais.</p>
+
+                    <a href="#receitas" class="slide_button">
+                        Ver receitas
+                    </a>
+                </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="slide">
+                <img src="imagens/Banner _slide3.jpg" alt="Receitas especiais">
+
+                <div class="slide_content">
+                    <span>Para você</span>
+                    <h1>Encontre sua próxima receita favorita</h1>
+                    <p>Do prato principal à sobremesa.</p>
+
+                    <a href="#receitas" class="slide_button">
+                        Ver receitas
+                    </a>
+                </div>
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="slide">
+                <img src="imagens/Banner _slide4.jpg" alt="Comida deliciosa">
+
+                <div class="slide_content">
+                    <span>Meu Pão de Queijo</span>
+                    <h1>Comida boa começa com uma boa receita</h1>
+                    <p>Prepare, experimente e aproveite.</p>
+
+                    <a href="#receitas" class="slide_button">
+                        Ver receitas
+                    </a>
+                </div>
+            </div>
+
+            <!-- BOTÃO ANTERIOR - Servem pra passar ou voltar os slides--> 
+            <button class="slider_button prev" id="prev" aria-label="Slide anterior">
+                &#10094;
+            </button>
+            <!-- BOTÃO PRÓXIMO -->
+            <button class="slider_button next" id="next" aria-label="Próximo slide">
+                &#10095;
+            </button>
+
+            <!-- INDICADORES -->
+            <div class="slider_dots">
+                <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+                <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+                <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+                <button class="dot" data-slide="3" aria-label="Slide 4"></button>
+            </div>
+
+
+        </div> <!--Fim da div slider-->
+     </section> <!-- FIM DA SEÇÃO BANNER CARROSSEL -->
+  
+     <!-- CONTEÚDO PRINCIPAL -->
+      <main class="container">
+        <section class="receitas">
+            <div class="section_header">
+
+                  <span class="section_tag">
+                      NOSSO BLOG
+                  </span>
+
+                  <h2>
+                      Receitas em destaque
+                  </h2>
+
+                  <p>
+                      Confira algumas das nossas receitas favoritas.
+                  </p>
+
+              </div>
+        </section> <!--FIM SECÇÃO RECEITAS-->
+      </main>
+
+      <!--JAVASCRIPT-->
+      <script src="script.js"></script>
+</body>
+</html>
